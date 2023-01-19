@@ -9,12 +9,12 @@ namespace Entities.Concretes
 {
     public class Car :IEntity
     {
-        int Id { get; set; }
-        int BrandId { get; set; }
-        int ColorId { get; set; }   
-        int ModelYear { get; set; }
-        int DailyPrice { get; set; }
-        string Description { get; set; }
+       public int Id { get; set; }
+        public int BrandId { get; set; }
+        public int ColorId { get; set; }
+        public int ModelYear { get; set; }
+        public int DailyPrice { get; set; }
+        public string Description { get; set; }
 
         
     }
