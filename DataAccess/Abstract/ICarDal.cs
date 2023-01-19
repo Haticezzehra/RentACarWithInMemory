@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    internal interface ICarDal
+   public interface ICarDal
     {
         List<Car> GetAll();
         void Add(Car car);
